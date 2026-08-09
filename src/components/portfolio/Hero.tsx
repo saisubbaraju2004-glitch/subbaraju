@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import portraitAsset from "@/assets/profile-portrait.png.asset.json";
 import { profile } from "@/data/portfolio";
 
 export function Hero() {
@@ -90,16 +91,12 @@ export function Hero() {
               className="relative aspect-[4/5] w-[240px] overflow-hidden rounded-[1.75rem] border sm:w-[300px]"
               style={{ borderColor: "color-mix(in oklab, var(--cyan) 45%, transparent)", boxShadow: "var(--glow-cyan)" }}
             >
-              {/* Replace with the real uploaded portrait:
-                  <img src={portrait} alt="Portrait of Gadhiraju D V S Subbaraju"
-                       className="h-full w-full object-cover" loading="eager" /> */}
-              <div
-                className="grid h-full w-full place-items-center bg-surface"
-                role="img"
-                aria-label="Portrait of Gadhiraju D V S Subbaraju"
-              >
-                <span className="text-gradient text-5xl font-bold tracking-tight">GS</span>
-              </div>
+              <img
+                src={portraitAsset.url}
+                alt="Gadhiraju D V S Subbaraju presenting at a university event"
+                className="h-full w-full object-cover object-center"
+                loading="eager"
+              />
             </div>
           </figure>
         </div>
