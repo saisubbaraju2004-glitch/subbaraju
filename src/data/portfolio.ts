@@ -1,12 +1,13 @@
 export const profile = {
   name: "Gadhiraju D V S Subbaraju",
-  title: "AI Engineering | Web Development",
-  eyebrow: "Computer Science & Engineering",
+  title: "Computer Science Engineering Student | Web Developer | AI/GenAI Enthusiast",
+  eyebrow: "Computer Science Engineering Student",
   headline: "AI Engineering & Web Development",
-  supporting: "Building Intelligent Digital Solutions for the Future",
+  supporting: "Web Developer | AI/GenAI Enthusiast",
   description:
-    "Computer Science and Engineering student passionate about Artificial Intelligence, Generative AI, and modern web development, focused on building practical technology solutions.",
+    "Computer Science and Engineering student with a strong interest in web development, Artificial Intelligence, and Generative AI. Experienced in building web projects using HTML, CSS, JavaScript, React, Python, and Git.",
   location: "Palivela, Near Rajahmundry, Andhra Pradesh",
+  phone: "9494594677",
   email: "saisubbaraju2004@gmail.com",
   linkedin: "https://www.linkedin.com/in/subbaraju-gadhiraju-590838358",
   github: "https://github.com/saisubbaraju2004-glitch",
@@ -27,28 +28,34 @@ export const navItems = [
 ];
 
 export const aboutParagraphs = [
-  "I’m Gadhiraju D V S Subbaraju, a Computer Science and Engineering student focused on AI Engineering and Web Development. I’m passionate about exploring Artificial Intelligence, Generative AI, and modern web technologies to transform ideas into practical digital solutions.",
-  "Currently, I’m developing CodeSphere, an all-in-one developer platform that brings together coding practice, project development, developer networking, and career-focused features. I’m also gaining hands-on experience through web development and using AI-assisted development tools such as Lovable alongside technologies including Python, JavaScript, React, HTML, CSS, and Git.",
-  "My goal is to grow into a skilled AI/software engineer and contribute to innovative technology products that solve real-world problems.",
+  "Computer Science and Engineering student with a strong interest in web development, Artificial Intelligence, and Generative AI. Experienced in building web projects using HTML, CSS, JavaScript, React, Python, and Git.",
+  "Currently developing CodeSphere, an all-in-one developer platform where users can learn coding, practice programming, build projects, showcase skills, connect with developers, and grow their software engineering careers.",
+  "Gaining practical web development experience through an internship at ShadowFox, with a focus on building practical technology solutions and continuing to grow as an AI and software engineer.",
 ];
 
 export const focusAreas = [
   "AI Engineering",
   "Generative AI",
   "Web Development",
-  "Software Development",
+  "Practical Technology Solutions",
+];
+
+export const strengths = [
   "Problem Solving",
-  "Continuous Learning",
+  "Quick Learning",
+  "Time Management",
+  "English Communication",
+  "Attention to Detail",
 ];
 
 export const skillGroups = [
   {
     category: "AI & Emerging Technologies",
-    items: ["Artificial Intelligence", "AI Engineering", "Generative AI"],
+    items: ["Generative AI", "AI Engineering"],
   },
   { category: "Programming", items: ["Python", "JavaScript"] },
-  { category: "Web Development", items: ["HTML", "CSS", "React"] },
-  { category: "Tools & Development", items: ["Git", "GitHub", "Lovable"] },
+  { category: "Web Development", items: ["HTML", "CSS", "JavaScript", "React"] },
+  { category: "Tools & Development", items: ["Git", "Lovable"] },
   { category: "Computer Science", items: ["Data Structures & Algorithms"] },
 ];
 
@@ -60,10 +67,9 @@ export const projects = [
     description:
       "Developing an all-in-one developer platform that enables users to learn, practice coding, build projects, showcase skills, connect with developers, and grow software engineering careers.",
     details: [
-      "Building user-facing interfaces using HTML, CSS, JavaScript, and React.",
-      "Using Lovable as an AI-assisted development tool during website development.",
-      "Applying Git for version control and project workflow management.",
-      "Developing a structured platform combining coding practice, project development, developer networking, and career-oriented features.",
+      "Building the interface using HTML, CSS, JavaScript, and React.",
+      "Using Lovable as an AI-assisted development tool.",
+      "Using Git for version control and project development.",
     ],
     stack: ["Lovable", "HTML", "CSS", "JavaScript", "React", "Git"],
     url: "" as string,
@@ -77,12 +83,10 @@ export const experience = [
     location: "Remote",
     duration: "August 2026 – August 2026",
     responsibilities: [
-      "Developing portfolio and e-commerce websites as part of an ongoing web development internship.",
-      "Building and structuring web content using HTML.",
-      "Applying Python and Git within the development workflow.",
-      "Using Git for version control throughout the development process.",
-      "Applying problem-solving and attention-to-detail skills while developing and refining web applications.",
-      "Managing assigned development tasks independently while maintaining progress within internship timelines.",
+      "Developing portfolio and e-commerce websites as part of the internship.",
+      "Building web content using HTML and applying Python and Git in the development workflow.",
+      "Using Git for version control and project management.",
+      "Applying problem-solving and attention to detail during ongoing development.",
     ],
     stack: ["HTML", "Python", "Git"],
   },
@@ -103,14 +107,13 @@ export const certifications = [
     issuer: "International Workshop",
     meta: "",
   },
-  { title: "AI-ML Virtual Internship", issuer: "EduSkills / AICTE", meta: "8 Weeks — June–August 2026" },
+  { title: "AI-ML Virtual Internship", issuer: "EduSkills / AICTE", meta: "" },
   { title: "Aavishkar 2K25", issuer: "Certificate of Merit", meta: "" },
 ];
 
 export const achievement = {
   prize: "2nd Prize",
   event: "Project Expo — ESPARX 2K26",
-  organizer:
-    "Department of ECE, University College of Engineering Kakinada (UCEK), JNTUK",
+  organizer: "University College of Engineering Kakinada (UCEK), JNTUK",
   date: "March 2026",
 };
