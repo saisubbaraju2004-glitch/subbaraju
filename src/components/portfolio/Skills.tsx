@@ -2,7 +2,7 @@ import { Braces, Brain, Code2, GitBranch, Layers } from "lucide-react";
 import { skillGroups } from "@/data/portfolio";
 import { Section } from "./Section";
 
-const icons = [Brain, Code2, Layers, GitBranch, Braces];
+const icons = [Brain, Code2, Layers, GitBranch, Braces] as const;
 
 export function Skills() {
   return (
@@ -14,7 +14,7 @@ export function Skills() {
     >
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {skillGroups.map((group, i) => {
-          const Icon = icons[i % icons.length];
+          const Icon = icons[i % icons.length] ?? Brain;
           return (
             <article key={group.category} className="panel p-6">
               <div className="flex items-center gap-3">

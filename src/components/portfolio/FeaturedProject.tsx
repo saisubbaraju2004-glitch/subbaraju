@@ -4,6 +4,7 @@ import { Section } from "./Section";
 
 export function FeaturedProject() {
   const [featured, ...rest] = projects;
+  if (!featured) return null;
   return (
     <Section id="projects" label="Work" title="Featured Project">
       <ProjectCard project={featured} />
