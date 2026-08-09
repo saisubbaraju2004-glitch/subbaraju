@@ -1,4 +1,4 @@
-import { aboutParagraphs, focusAreas } from "@/data/portfolio";
+import { aboutParagraphs, focusAreas, strengths } from "@/data/portfolio";
 import { Section } from "./Section";
 
 export function About() {
@@ -25,6 +25,17 @@ export function About() {
                   style={{ backgroundImage: "var(--gradient-accent)" }}
                 />
                 {area}
+              </li>
+            ))}
+          </ul>
+
+          <h3 className="mt-8 text-sm font-semibold tracking-[0.18em] text-cyan uppercase">Strengths</h3>
+          <div aria-hidden="true" className="hairline my-5 h-px w-full" />
+          <ul className="space-y-3">
+            {strengths.map((strength) => (
+              <li key={strength} className="flex items-center gap-3 text-sm text-foreground/90">
+                <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 rounded-full bg-cyan" />
+                {strength}
               </li>
             ))}
           </ul>
