@@ -32,14 +32,14 @@ export function Hero() {
           </h1>
 
           <p
-            className="rise text-gradient mt-4 text-xl font-semibold sm:text-2xl"
+            className="rise text-gradient mt-4 text-2xl leading-tight font-bold tracking-tight sm:text-3xl lg:text-4xl"
             style={{ animationDelay: "180ms" }}
           >
             {profile.headline}
           </p>
 
           <p
-            className="rise mt-2 text-lg text-foreground/90 sm:text-xl"
+            className="rise mt-3 text-lg font-medium text-foreground/90 sm:text-xl"
             style={{ animationDelay: "240ms" }}
           >
             {profile.supporting}
