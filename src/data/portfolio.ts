@@ -71,9 +71,10 @@ export const projects = [
     description:
       "Developing an all-in-one developer platform that enables users to learn, practice coding, build projects, showcase skills, connect with developers, and grow software engineering careers.",
     details: [
-      "Building the interface using HTML, CSS, JavaScript, and React.",
-      "Using Lovable as an AI-assisted development tool.",
-      "Using Git for version control and project development.",
+      "Building user-facing interfaces using HTML, CSS, JavaScript, and React.",
+      "Using Lovable as an AI-assisted development tool during website development.",
+      "Applying Git for version control and project workflow management.",
+      "Developing a structured platform combining coding practice, project development, developer networking, and career-oriented features.",
     ],
     stack: ["Lovable", "HTML", "CSS", "JavaScript", "React", "Git"],
     url: "" as string,
@@ -87,10 +88,12 @@ export const experience = [
     location: "Remote",
     duration: "August 2026 – August 2026",
     responsibilities: [
-      "Developing portfolio and e-commerce websites as part of the internship.",
-      "Building web content using HTML and applying Python and Git in the development workflow.",
-      "Using Git for version control and project management.",
-      "Applying problem-solving and attention to detail during ongoing development.",
+      "Developing portfolio and e-commerce websites as part of an ongoing web development internship.",
+      "Building and structuring web content using HTML.",
+      "Applying Python and Git within the development workflow.",
+      "Using Git for version control throughout the development process.",
+      "Applying problem-solving and attention-to-detail skills while developing and refining web applications.",
+      "Managing assigned development tasks independently while maintaining progress within internship timelines.",
     ],
     stack: ["HTML", "Python", "Git"],
   },
@@ -111,13 +114,18 @@ export const certifications = [
     issuer: "International Workshop",
     meta: "",
   },
-  { title: "AI-ML Virtual Internship", issuer: "EduSkills / AICTE", meta: "" },
+  {
+    title: "AI-ML Virtual Internship",
+    issuer: "EduSkills / AICTE",
+    meta: "8 Weeks, June–August 2026",
+  },
   { title: "Aavishkar 2K25", issuer: "Certificate of Merit", meta: "" },
 ];
 
 export const achievement = {
   prize: "2nd Prize",
   event: "Project Expo — ESPARX 2K26",
-  organizer: "University College of Engineering Kakinada (UCEK), JNTUK",
+  organizer:
+    "Department of ECE, University College of Engineering Kakinada (UCEK), JNTUK",
   date: "March 2026",
 };
