@@ -19,7 +19,7 @@ const cards = [
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/subbaraju-gadhiraju",
+    value: "linkedin.com/in/subbaraju-gadhiraju-590838358",
     href: profile.linkedin,
     icon: Linkedin,
     external: true,
