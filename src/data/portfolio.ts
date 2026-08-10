@@ -1,3 +1,5 @@
+import resumeAsset from "@/assets/Gadhiraju_DVS_Subbaraju_Professional_Resume.pdf.asset.json";
+
 export const profile = {
   name: "Gadhiraju D V S Subbaraju",
   title: "Computer Science Engineering Student | Web Developer | AI/GenAI Enthusiast",
@@ -11,7 +13,7 @@ export const profile = {
   email: "saisubbaraju2004@gmail.com",
   linkedin: "https://www.linkedin.com/in/subbaraju-gadhiraju-590838358",
   github: "https://github.com/saisubbaraju2004-glitch",
-  resumeUrl: "" as string,
+  resumeUrl: resumeAsset.url,
 };
 
 export const navItems = [
