@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-[1280px] gap-6 px-5 sm:px-8 md:grid-cols-[1fr_auto] md:items-center">
         <div className="min-w-0">
           <p className="font-semibold tracking-tight">{profile.name}</p>
-          <p className="mt-1 text-sm text-muted-foreground">{profile.title}</p>
+          <p className="mt-1 text-sm text-muted-foreground">AI Engineering | Web Development | Computer Science</p>
         </div>
         <nav aria-label="Footer" className="flex flex-wrap gap-5 text-sm">
           <a className="text-muted-foreground hover:text-cyan" href={`mailto:${profile.email}`}>
