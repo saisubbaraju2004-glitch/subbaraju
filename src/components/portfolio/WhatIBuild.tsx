@@ -14,7 +14,7 @@ const buildAreas = [
   },
   {
     title: "Web Applications",
-    description: "Building modern web interfaces and applications using HTML, CSS, JavaScript and React.",
+    description: "Building modern web interfaces using HTML, CSS, JavaScript and React.",
     icon: Code2,
   },
   {
