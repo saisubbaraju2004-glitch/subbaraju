@@ -52,11 +52,6 @@ export function Contact() {
           </a>
         ))}
       </div>
-
-      <p className="mt-8 inline-flex items-center gap-2 text-sm text-muted-foreground">
-        <MapPin className="h-4 w-4 text-cyan" aria-hidden="true" />
-        {profile.location}
-      </p>
     </Section>
   );
 }
