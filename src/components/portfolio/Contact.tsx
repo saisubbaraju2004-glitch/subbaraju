@@ -1,15 +1,8 @@
-import { Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { profile } from "@/data/portfolio";
 import { Section } from "./Section";
 
 const cards = [
-  {
-    label: "Phone",
-    value: profile.phone,
-    href: `tel:${profile.phone}`,
-    icon: Phone,
-    external: false,
-  },
   {
     label: "Email",
     value: profile.email,
@@ -41,7 +34,7 @@ export function Contact() {
       title="Let’s Build the Future with AI & Technology"
       subtitle="I’m open to opportunities where I can apply my skills in AI engineering, software development, and web technologies."
     >
-      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
           <a
             key={card.label}

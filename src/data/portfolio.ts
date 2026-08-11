@@ -9,7 +9,6 @@ export const profile = {
   description:
     "Computer Science and Engineering student passionate about Artificial Intelligence, Generative AI, and modern web development, focused on building practical technology solutions.",
   location: "Palivela, Near Rajahmundry, Andhra Pradesh",
-  phone: "9494594677",
   email: "saisubbaraju2004@gmail.com",
   linkedin: "https://www.linkedin.com/in/subbaraju-gadhiraju-590838358",
   github: "https://github.com/saisubbaraju2004-glitch",
