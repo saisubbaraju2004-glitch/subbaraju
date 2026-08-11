@@ -18,7 +18,9 @@ export const profile = {
 export const navItems = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
+  { label: "What I Build", id: "what-i-build" },
   { label: "Skills", id: "skills" },
+  { label: "Currently Exploring", id: "currently-exploring" },
   { label: "Projects", id: "projects" },
   { label: "Experience", id: "experience" },
   { label: "Education", id: "education" },
