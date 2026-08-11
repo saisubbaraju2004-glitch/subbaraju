@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { profile } from "@/data/portfolio";
 import { Section } from "./Section";
 
