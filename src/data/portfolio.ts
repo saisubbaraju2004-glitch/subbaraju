@@ -71,6 +71,18 @@ export const projects = [
     subtitle: "All-in-One Developer Platform",
     description:
       "Developing an all-in-one developer platform that enables users to learn, practice coding, build projects, showcase skills, connect with developers, and grow software engineering careers.",
+    purpose:
+      "Creating a unified platform for developers to learn, practice, build, showcase their skills, connect with other developers, and grow their software engineering careers.",
+    building: [
+      "Coding practice",
+      "Project development",
+      "Developer showcase",
+      "Developer networking",
+      "Career-oriented features",
+    ],
+    technology: ["Lovable", "HTML", "CSS", "JavaScript", "React", "Git"],
+    approach:
+      "Using Lovable as an AI-assisted development tool while applying Git for version control and project workflow management.",
     details: [
       "Building user-facing interfaces using HTML, CSS, JavaScript, and React.",
       "Using Lovable as an AI-assisted development tool during website development.",

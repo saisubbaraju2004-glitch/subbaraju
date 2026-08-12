@@ -4,6 +4,13 @@ import { projects } from "@/data/portfolio";
 export type Project = (typeof projects)[number];
 
 export function ProjectCard({ project }: { project: Project }) {
+  const areas: { num: string; label: string; content?: string; items?: string[] }[] = [
+    { num: "01", label: "Purpose", content: project.purpose },
+    { num: "02", label: "What I'm Building", items: project.building },
+    { num: "03", label: "Technology", items: project.technology },
+    { num: "04", label: "Development Approach", content: project.approach },
+  ];
+
   return (
     <article className="panel relative overflow-hidden">
       <div
@@ -24,27 +31,36 @@ export function ProjectCard({ project }: { project: Project }) {
           <p className="text-gradient mt-2 text-base font-semibold">{project.subtitle}</p>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground">{project.description}</p>
 
-          <ul className="mt-6 space-y-3">
-            {project.details.map((d) => (
-              <li key={d.slice(0, 20)} className="flex gap-3 text-sm text-muted-foreground">
-                <Check className="mt-0.5 h-4 w-4 shrink-0 text-cyan" aria-hidden="true" />
-                <span>{d}</span>
-              </li>
-            ))}
-          </ul>
-
-          <div className="mt-7 flex flex-wrap gap-2">
-            {project.stack.map((tech) => (
-              <span
-                key={tech}
-                className="rounded-md border border-border bg-secondary/50 px-3 py-1.5 text-[13px] text-muted-foreground"
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {areas.map((area) => (
+              <div
+                key={area.label}
+                className="rounded-xl border border-border bg-secondary/30 p-5 transition-colors hover:bg-secondary/50"
               >
-                {tech}
-              </span>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-bold tracking-widest text-cyan">{area.num}</span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-foreground/90">
+                    {area.label}
+                  </span>
+                </div>
+                {area.content && (
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{area.content}</p>
+                )}
+                {area.items && (
+                  <ul className="mt-3 space-y-2">
+                    {area.items.map((item) => (
+                      <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-cyan" aria-hidden="true" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             ))}
           </div>
 
-          <p className="mt-7 inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/40 px-4 py-2.5 text-sm text-muted-foreground">
+          <p className="mt-8 inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/40 px-4 py-2.5 text-sm text-muted-foreground">
             <span aria-hidden="true" className="h-2 w-2 rounded-full bg-cyan" />
             Project currently in development
           </p>
