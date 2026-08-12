@@ -52,6 +52,13 @@ export function Hero() {
             {profile.description}
           </p>
 
+          <p
+            className="rise mt-4 text-sm text-muted-foreground"
+            style={{ animationDelay: "360ms" }}
+          >
+            Open to Opportunities · 2027 Graduate
+          </p>
+
           <div
             className="rise mt-9 flex flex-col gap-3 sm:flex-row sm:items-center"
             style={{ animationDelay: "380ms" }}
