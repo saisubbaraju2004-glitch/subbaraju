@@ -4,6 +4,7 @@ import { Section } from "./Section";
 
 export function ExperienceTimeline() {
   const item = experience[0];
+  if (!item) return null;
 
   return (
     <Section id="experience" label="HANDS-ON EXPERIENCE" title="Experience">
